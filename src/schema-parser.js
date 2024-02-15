@@ -17,7 +17,6 @@ class SchemaParser {
         continue;
       }
 
-      console.log("about to process: ", this.schema[table]);
       let indexes = this.schema[table].split(",");
 
       foreignKeys[table] = indexes
